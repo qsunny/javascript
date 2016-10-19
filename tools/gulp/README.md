@@ -28,6 +28,7 @@ reference:
  1. https://www.tutorialspoint.com/gulp/gulp_installation.htm
  1. http://www.cnblogs.com/starof/p/5194622.html
 
+search gulp plugin : 1. https://www.npmjs.com/browse/keyword/gulpplugin,http://gulpjs.com/plugins/
 
 
 
