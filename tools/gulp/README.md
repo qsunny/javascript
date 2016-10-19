@@ -7,19 +7,30 @@
 
 1. install gulp in your project devDependencies:
 	`npm install --save-dev gulp`
+    
 	`npm install -g gulp`    	//全局安装
 
 1. install dependence glup plugin
-`npm install gulp-changed --save-dev`
-`npm install gulp-imagemin --save-dev`
-`npm install gulp-uglify --save-dev`
-`npm install jshint gulp-jshint --save-dev`
-`npm install gulp-concat --save-dev`
-`npm install gulp-minify-css --save-dev`
-`npm install gulp-autoprefixer --save-dev`
-`npm install browser-sync --save-dev`
-`npm install gulp-strip-debug --save-dev` //移除console debug信息
-`npm install del --save-dev` 
+	`npm install gulp-changed --save-dev`
+
+	`npm install gulp-imagemin --save-dev`
+
+	`npm install gulp-uglify --save-dev`
+
+	`npm install jshint gulp-jshint --save-dev`
+
+	`npm install gulp-concat --save-dev`
+
+	`npm install gulp-minify-css --save-dev`
+
+	`npm install gulp-autoprefixer --save-dev`
+
+	`npm install browser-sync --save-dev`
+
+	`npm install gulp-strip-debug --save-dev` //移除console debug信息
+
+	`npm install del --save-dev` 
+
 
 reference:
  1. https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
