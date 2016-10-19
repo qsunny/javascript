@@ -26,6 +26,7 @@ reference:
 2. http://www.w3ctech.com/topic/134
 3. http://www.gulpjs.com.cn/
 4. https://www.tutorialspoint.com/gulp/gulp_installation.htm
+5. http://www.cnblogs.com/starof/p/5194622.html
 
 
 
