@@ -23,10 +23,10 @@
 
 reference:
 1. https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
-2. http://www.w3ctech.com/topic/134
-3. http://www.gulpjs.com.cn/
-4. https://www.tutorialspoint.com/gulp/gulp_installation.htm
-5. http://www.cnblogs.com/starof/p/5194622.html
+1. http://www.w3ctech.com/topic/134
+1. http://www.gulpjs.com.cn/
+1. https://www.tutorialspoint.com/gulp/gulp_installation.htm
+1. http://www.cnblogs.com/starof/p/5194622.html
 
 
 
