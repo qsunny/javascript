@@ -22,11 +22,11 @@
 `npm install del --save-dev` 
 
 reference:
-1. https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
-1. http://www.w3ctech.com/topic/134
-1. http://www.gulpjs.com.cn/
-1. https://www.tutorialspoint.com/gulp/gulp_installation.htm
-1. http://www.cnblogs.com/starof/p/5194622.html
+ 1. https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+ 1. http://www.w3ctech.com/topic/134
+ 1. http://www.gulpjs.com.cn/
+ 1. https://www.tutorialspoint.com/gulp/gulp_installation.htm
+ 1. http://www.cnblogs.com/starof/p/5194622.html
 
 
 
