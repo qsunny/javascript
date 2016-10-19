@@ -1,16 +1,20 @@
 ##### gulp的安装使用
 1. Install gulp globally(全局安装) npm rm --global gulp确认是否已经安装了先前的版本.通过安装参数gulp-cli不和以前 的版本冲突
- `npm install --global gulp-cli`
+ 	
+    `npm install --global gulp-cli`
  
 1.  Initialize your project directory:
-`npm init`
+	
+    `npm init`
 
 1. install gulp in your project devDependencies:
+
 	`npm install --save-dev gulp`
     
 	`npm install -g gulp`    	//全局安装
 
 1. install dependence glup plugin
+
 	`npm install gulp-changed --save-dev`
 
 	`npm install gulp-imagemin --save-dev`
