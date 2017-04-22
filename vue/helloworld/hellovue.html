@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Vue Demo</title>
+<script type="text/javascript" src="js/vue.js"></script>  
+</head>
+<body>
+
+<h1>Vue Demo</h1>
+
+  <div id="box">
+  	<input type="button" value="show" v-on:click="show()">
+  	<input type="text" v-model="msg" >
+  	<ul>
+  		<li v-for="fr in fruits">
+  			{{fr}} 
+  		 </li>
+  	</ul>
+  	<ul>
+  		<li v-for="p in personJson">
+  			{{p}}  
+  		 </li>
+  	</ul>
+  	<ul>
+		<li v-for="(k,v) in personJson">
+		{{k}}  {{v}}
+	 </li>
+  	</ul>
+  	<h1 v-if="isShow">Yes!</h1>
+    <h1 v-if="isHide">No!</h1>
+    <h1 v-if="age >= 10">Age: {{ age }}</h1>
+    <h1 v-show="isShow">Yes!</h1>
+    <h1 v-show="isHide">No!</h1>
+  	{{msg}}
+  	<br>
+  	{{fruits}}
+  	<br>
+  	{{personJson}}
+  	<br>
+  </div>
+</body>
+<script type="text/javascript">
+	window.onload=function() {
+		var vue = new Vue({
+			el:'#box',
+			data : {
+				msg : 'hello world',
+				isShow : true,
+				isHide : false,
+				age : 12,
+				fruits : ['apple','orange','banana'],
+				personJson : {
+					name :"Aaaron.Qiu",
+					birthdate : "1987-02-03"
+				} 
+			},
+			methods : {
+				show : function() {
+					console.log("vue event bind");
+				}
+			}
+		});
+	}
+
+</script>
+</html>
